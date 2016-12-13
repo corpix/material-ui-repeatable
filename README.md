@@ -43,12 +43,12 @@ class MyComponent extends Component {
 
     onAdd = (index) => {
         console.log('added replicant', index);
-        this.state.copies++;
+        this.setState({ copies: this.state.copies + 1 });
     }
 
     onRemove = (index) => {
         console.log('removed replicant', index);
-        this.state.copies--;
+        this.setState({ copies: this.state.copies - 1 });
     }
 
     render() {
