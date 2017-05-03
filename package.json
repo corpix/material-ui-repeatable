@@ -1,6 +1,6 @@
 {
   "name": "material-ui-repeatable",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Repeat any component as many times as you like on the page.",
   "main": "Repeatable.js",
   "scripts": {
