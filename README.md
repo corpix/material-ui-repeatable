@@ -66,8 +66,6 @@ class MyComponent extends Component {
 
 # Properties
 
-> For snackbar props please see [material-ui docs](http://www.material-ui.com/#/components/snackbar).
-
 | Name | Type | Default | Description |
 | ---- | ---- | ------- | ----------- |
 | initialCopies | `number` | `1` | Number of the replicants to be generated at the render time. |
